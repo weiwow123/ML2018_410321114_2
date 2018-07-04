@@ -14,29 +14,37 @@
   在這裡我的Data進行了簡單的reshape以及將像素質標準化︰  
   ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/preprocessing1.png)  
   為了配合RNN及MLP的輸入，所以我另外進行reshape︰  
-  ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/preprocessing2.png)  
+  ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/preprocessing2.png)
   (RNN)  
-  ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/preprocessing3.png)  
+    
+  ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/preprocessing3.png)
   (MLP)  
+    
 # 減少維數
   我只在CNN中進行pooling以減少維數︰  
   ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/pooling.png)  
 # 選擇classifier
   本次作業中，我分別使用CNN、RNN及MLP，來進行比較，以下分別是我的CNN、RNN及MLP的架構︰  
-  ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/CNN.png)  
+  ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/CNN.png)
   (CNN)  
-  ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/RNN.png)  
+    
+  ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/RNN.png)
   (RNN)  
-  ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/MLP.png)  
+    
+  ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/MLP.png)
   (MLP)  
+    
 # 效能評估
   以下是我的Training結果︰  
-  ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/CNN_Train.png)  
+  ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/CNN_Train.png)
   (CNN)  
-  ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/RNN_Train.png)  
+    
+  ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/RNN_Train.png)
   (RNN)  
-  ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/MLP_Train.png)  
+  
+  ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/MLP_Train.png)
   (MLP)  
+  
   根據以上的結果可以看出，CNN擁有較高的準確率，且loss也較低，而且與RNN及MLP不同，只需要epoch一次就可以得出很高的準確率  
 # 其他
   我另外有抓了一組手寫數字嘗試直接進行辨識，以下是我抓的手寫數字︰  
