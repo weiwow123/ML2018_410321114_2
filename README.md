@@ -7,6 +7,7 @@
   testing_data資料夾中的圖片是我嘗試下載的一組手寫數字  
   create_list.sh是用來產生testing.txt用方便將所有圖片一次丟入  
   testing.py是我嘗試下載一組手寫數字並試著丟入各個model中進行辨識用的code  
+  另外Training出來的3個model由於檔案太大無法進行上傳  
 # Data下載
   在這裡我是直接透過keras的Datasets直接下載到指定的目錄中︰  
   ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/data_download.png)  
