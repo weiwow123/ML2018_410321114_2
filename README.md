@@ -42,14 +42,14 @@
   我另外有抓了一組手寫數字嘗試直接進行辨識，以下是我抓的手寫數字︰  
   ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/testing.jpg)  
   (取自︰https://imgur.com/XAHGrhJ)  
-  以下是我用各個model進行辨識的結果︰
+  以下是我用各個model進行辨識的結果︰  
   ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/CNN_testing.png)  
   (CNN)  
   ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/RNN_testing.png)  
   (RNN)  
   ![error](https://github.com/weiwow123/ML2018_410321114_2/blob/master/readme_data/MLP_testing.png)
   (MLP)  
-  根據以上的結果，整合成以下的表格︰
+  根據以上的結果，整合成以下的表格︰  
   CNN:  
   
   |     |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  
