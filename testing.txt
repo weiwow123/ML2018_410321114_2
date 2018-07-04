@@ -1,0 +1,10 @@
+/home/cos/IML/Mnist_HandWriting/testing_data/6.png
+/home/cos/IML/Mnist_HandWriting/testing_data/0.png
+/home/cos/IML/Mnist_HandWriting/testing_data/2.png
+/home/cos/IML/Mnist_HandWriting/testing_data/9.png
+/home/cos/IML/Mnist_HandWriting/testing_data/3.png
+/home/cos/IML/Mnist_HandWriting/testing_data/8.png
+/home/cos/IML/Mnist_HandWriting/testing_data/7.png
+/home/cos/IML/Mnist_HandWriting/testing_data/4.png
+/home/cos/IML/Mnist_HandWriting/testing_data/5.png
+/home/cos/IML/Mnist_HandWriting/testing_data/1.png
