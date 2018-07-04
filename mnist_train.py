@@ -59,7 +59,7 @@ model3.add(Activation('softmax'))
 
 model3.summary()
 model3.compile(optimizer=adam,loss = 'categorical_crossentropy',metrics=['accuracy'])
-"""
+
 print('--------CNN-------')
 print('Training ......')
 train_his = model.fit(tn_f, tn_lb, epochs=1, batch_size=100,verbose=1)
@@ -83,7 +83,7 @@ loss, accuracy = model2.evaluate(tt_f, tt_lb)
 
 print('\ntest loss: ', loss)
 print('\ntest accuracy: ', accuracy)
-"""
+
 print('--------MLP-------')
 
 tn_f = tn_f.reshape(-1,784)/255.
