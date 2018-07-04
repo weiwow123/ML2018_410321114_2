@@ -22,7 +22,7 @@ def read_img(model,n_src):
 model = load_model(CNN_path)
 model2 = load_model(RNN_path)
 model3 = load_model(MLP_path)
-"""
+
 print('--------CNN--------')
 
 lst = open('testing.txt','r')
@@ -48,7 +48,7 @@ for line in lst:
     print("Ans: ",line[-5:-4])
     read_img(model2,n_src)
 lst.close()
-"""
+
 print('--------MLP--------')
 
 lst = open('testing.txt','r')
